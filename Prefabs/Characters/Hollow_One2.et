@@ -1,0 +1,139 @@
+Bacon_622120A5448725E3_InfectedCharacter : "{20686B1685B29244}622120A5448725E3/Prefabs/Characters/Variants/Variant_CIV_Regular8.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterControllerComponent "{520EA1D2F659CEA5}" {
+   JumpUpVelocity 3.7
+   DeathTimer 5
+   LeanSpeed 4
+  }
+  ClimbingDataComponent "{5304A49E934A0758}" {
+   CanClimbOver 1
+  }
+  FactionAffiliationComponent "{6264FD1F8BD7D6BF}" {
+   "faction affiliation" "The_Forgotten_65934D5B0DC11D42_FACTION"
+  }
+  MeshObject "{520EA1D2F659C81F}" {
+   Materials {
+    MaterialAssignClass "{65A08248A8C3665F}" {
+     SourceMaterial "Basebody_01_Male_Arms"
+     AssignedMaterial "{73729450190803B0}Assets/Characters/Basebody/Data/Arms_African_01.emat"
+    }
+    MaterialAssignClass "{65A08248A8C36673}" {
+     SourceMaterial "Basebody_01_Male_Arms_wound"
+     AssignedMaterial "{C624B1A866D83317}Assets/Characters/Basebody/Data/Basebody_01_Male_Arms_African_wound.emat"
+    }
+   }
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Additional hit zones" {
+    SCR_CharacterHealthHitZone Health {
+    }
+    SCR_CharacterHeadHitZone Head {
+     MaxHealth 55
+    }
+    SCR_CharacterHitZone Chest {
+     MaxHealth 0.98
+    }
+    SCR_CharacterHitZone Abdomen {
+     MaxHealth 0.98
+    }
+    SCR_CharacterHitZone Hips {
+     MaxHealth 0.98
+    }
+   }
+   "Fall damage min speed" 44
+   "Fall damage max speed" 44.8
+   CollisionVelocityThreshold 6
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Hollow One2"
+    Icon "{E94D36C887B4C75E}Images/Iconforgotten.edds"
+    m_Image "{2965EE219CD9143E}Images/2.edds"
+    m_sFaction "The_Forgotten_65934D5B0DC11D42_FACTION"
+    m_aAuthoredLabels {
+     1736967241 1001 2 71
+    }
+    m_aAutoLabels {
+     1736967241 1001 2
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{BCCB7D5AB38BB3A7}Prefabs/Characters/HeadGear/Hat_Knitted_01/Hat_Knitted_01_base.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F1E29085C62F0D55}Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{3DE0155EC9767B98}Prefabs/Items/Equipment/Backpacks/Backpack_Veshmeshok.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
+    }
+   }
+  }
+  CharacterAnimationComponent "{520EA1D2F659C994}" {
+   components {
+    SCR_CharacterCommandHandlerComponent "{520EA1D2F659C99A}" {
+     MoveSettings ScriptCharacterCommandMoveSettings "{520EA1D2F659C99B}" {
+      LeaningSpeed 4
+      m_fSpeed_Erect_Slow_Forward 1
+      m_fSpeed_Erect_Slow_Backward 1
+      m_fSpeed_Erect_Slow_Strafe 1
+      m_fSpeed_Erect_Normal_Forward 3.4
+      m_fSpeed_Erect_Normal_Backward 2.8
+      m_fSpeed_Erect_Normal_Strafe 3.4
+      m_fSpeed_Erect_Fast_Forward 4.8
+      m_fSpeed_Erect_Fast_Strafe 4.8
+      m_fSpeed_Crouch_Slow_Forward 0.8
+      m_fSpeed_Crouch_Slow_Backward 0.8
+      m_fSpeed_Crouch_Slow_Strafe 0.8
+      m_fSpeed_Crouch_Normal_Forward 2.4
+      m_fSpeed_Crouch_Normal_Backward 1.5
+      m_fSpeed_Crouch_Normal_Strafe 2.4
+      m_fSpeed_Crouch_Fast_Forward 3.5
+      m_fSpeed_Crouch_Fast_Strafe 3
+      m_fSpeed_Prone_Slow_Forward 0.3
+      m_fSpeed_Prone_Slow_Backward 0.3
+      m_fSpeed_Prone_Slow_Strafe 0.3
+      m_fSpeed_Prone_Normal_Forward 0.6
+      m_fSpeed_Prone_Normal_Backward 0.4
+      m_fSpeed_Prone_Normal_Strafe 0.6
+      m_fSpeed_Prone_Fast_Forward 0.6
+      m_fSpeed_Prone_Fast_Strafe 0.5
+      m_fSpeed_Erect_Slope_Slow_Forward 0.5
+      m_fSpeed_Erect_Slope_Slow_Backward 0.5
+      m_fSpeed_Erect_Slope_Slow_Strafe 0.5
+      m_fSpeed_Erect_Slope_Normal_Forward 1.7
+      m_fSpeed_Erect_Slope_Normal_Backward 1.2
+      m_fSpeed_Erect_Slope_Normal_Strafe 1.7
+      m_fSpeed_Erect_Slope_Fast_Forward 1.7
+      m_fSpeed_Erect_Slope_Fast_Strafe 1.2
+      m_fSpeed_Crouch_Slope_Slow_Forward 0.5
+      m_fSpeed_Crouch_Slope_Slow_Backward 0.5
+      m_fSpeed_Crouch_Slope_Slow_Strafe 0.5
+      m_fSpeed_Crouch_Slope_Normal_Forward 1.7
+      m_fSpeed_Crouch_Slope_Normal_Backward 1
+      m_fSpeed_Crouch_Slope_Normal_Strafe 1.7
+      m_fSpeed_Crouch_Slope_Fast_Forward 1.7
+      m_fSpeed_Crouch_Slope_Fast_Strafe 1
+      m_fSpeed_Prone_Slope_Slow_Forward 0.3
+      m_fSpeed_Prone_Slope_Slow_Backward 0.3
+      m_fSpeed_Prone_Slope_Slow_Strafe 0.3
+      m_fSpeed_Prone_Slope_Normal_Forward 0.7
+      m_fSpeed_Prone_Slope_Normal_Backward 0.4
+      m_fSpeed_Prone_Slope_Normal_Strafe 0.5
+      m_fSpeed_Prone_Slope_Fast_Forward 1.5
+      m_fSpeed_Prone_Slope_Fast_Strafe 1.5
+     }
+    }
+   }
+  }
+ }
+}

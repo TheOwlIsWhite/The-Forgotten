@@ -1,0 +1,19 @@
+Bacon_622120A5448725E3_InfectedGroup : "{0016968F861B7CCD}622120A5448725E3/Prefabs/Groups/AmbientPatrol/Group_Zombies_AmbientPatrol_Horde.et" {
+ ID "62651601183F5AEE"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Icon "{E94D36C887B4C75E}Images/Iconforgotten.edds"
+    m_Image "{4454AB3A732BA66F}Images/Forgotten.edds"
+    m_sFaction "The_Forgotten_65934D5B0DC11D42_FACTION"
+    m_aAuthoredLabels {
+     4 1736967241 1001
+    }
+   }
+  }
+ }
+ m_faction "The_Forgotten_65934D5B0DC11D42_FACTION"
+ m_aUnitPrefabSlots {
+  "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{92F83A0E1FE75FB7}Prefabs/Characters/Hollow_OneArmed.et" "{92F83A0E1FE75FB7}Prefabs/Characters/Hollow_OneArmed.et" "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{92F83A0E1FE75FB7}Prefabs/Characters/Hollow_OneArmed.et" "{CB379A67E48227BD}Prefabs/Characters/Zombie_Heavy_Tank_TFU.et" "{92F83A0E1FE75FB7}Prefabs/Characters/Hollow_OneArmed.et" "{92F83A0E1FE75FB7}Prefabs/Characters/Hollow_OneArmed.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{92F83A0E1FE75FB7}Prefabs/Characters/Hollow_OneArmed.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{CB379A67E48227BD}Prefabs/Characters/Zombie_Heavy_Tank_TFU.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{CB379A67E48227BD}Prefabs/Characters/Zombie_Heavy_Tank_TFU.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{CB379A67E48227BD}Prefabs/Characters/Zombie_Heavy_Tank_TFU.et"
+ }
+}

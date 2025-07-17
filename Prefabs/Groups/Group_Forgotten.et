@@ -1,0 +1,24 @@
+SCR_AIGroup : "{5BEA04939D148B1D}Prefabs/Groups/INDFOR/Group_FIA_FireTeam.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "The Forgotten Group"
+    Icon "{E94D36C887B4C75E}Images/Iconforgotten.edds"
+    m_Image "{4454AB3A732BA66F}Images/Forgotten.edds"
+    m_sFaction "The_Forgotten_65934D5B0DC11D42_FACTION"
+    m_aAuthoredLabels {
+     4 1736967241 25
+    }
+    m_aAutoLabels + {
+     72 70
+    }
+   }
+  }
+ }
+ m_faction "The_Forgotten_65934D5B0DC11D42_FACTION"
+ m_aUnitPrefabSlots {
+  "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{91E512F5F77DFDB9}Prefabs/Characters/Withered.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{91E512F5F77DFDB9}Prefabs/Characters/Withered.et" "{92F83A0E1FE75FB7}Prefabs/Characters/Hollow_OneArmed.et" "{92F83A0E1FE75FB7}Prefabs/Characters/Hollow_OneArmed.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{91E512F5F77DFDB9}Prefabs/Characters/Withered.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{22AD2CFA9F25ED65}Prefabs/Characters/Withered_Lite.et" "{22AD2CFA9F25ED65}Prefabs/Characters/Withered_Lite.et" "{22AD2CFA9F25ED65}Prefabs/Characters/Withered_Lite.et" "{22AD2CFA9F25ED65}Prefabs/Characters/Withered_Lite.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{91E512F5F77DFDB9}Prefabs/Characters/Withered.et" "{91E512F5F77DFDB9}Prefabs/Characters/Withered.et" "{CB379A67E48227BD}Prefabs/Characters/Zombie_Heavy_Tank_TFU.et" "{8746B80A2FF3A99F}Prefabs/Characters/Withered_Heavy.et" "{CB379A67E48227BD}Prefabs/Characters/Zombie_Heavy_Tank_TFU.et" "{8746B80A2FF3A99F}Prefabs/Characters/Withered_Heavy.et"
+ }
+ m_fMemberSpawnDelay 10
+}

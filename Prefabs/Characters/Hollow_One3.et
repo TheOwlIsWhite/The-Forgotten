@@ -1,0 +1,123 @@
+Bacon_622120A5448725E3_InfectedCharacter : "{20686B1685B29244}622120A5448725E3/Prefabs/Characters/Variants/Variant_CIV_Regular8.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterControllerComponent "{520EA1D2F659CEA5}" {
+   JumpUpVelocity 3.7
+   DeathTimer 5
+   LeanSpeed 4
+  }
+  ClimbingDataComponent "{5304A49E934A0758}" {
+   CanClimbOver 1
+  }
+  FactionAffiliationComponent "{6264FD1F8BD7D6BF}" {
+   "faction affiliation" "The_Forgotten_65934D5B0DC11D42_FACTION"
+  }
+  SCR_CharacterDamageManagerComponent "{55872AD7B4E959F2}" {
+   "Additional hit zones" {
+    SCR_CharacterHealthHitZone Health {
+    }
+    SCR_CharacterHeadHitZone Head {
+     MaxHealth 50
+    }
+    SCR_CharacterHitZone Chest {
+     MaxHealth 0.95
+    }
+    SCR_CharacterHitZone Abdomen {
+     MaxHealth 0.95
+    }
+   }
+   "Fall damage min speed" 22
+   "Fall damage max speed" 22.4
+   CollisionVelocityThreshold 3
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Hollow One3"
+    Icon "{E94D36C887B4C75E}Images/Iconforgotten.edds"
+    m_Image "{DD6DA9B991047C4A}Images/3.edds"
+    m_sFaction "The_Forgotten_65934D5B0DC11D42_FACTION"
+    m_aAuthoredLabels {
+     70 1736967241 1001 2
+    }
+    m_aAutoLabels {
+     70 1736967241 1001 2
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{78C9B02C0CBD594C}Prefabs/Characters/Uniforms/Jacket_Tanker_USSR_01/Jacket_Tanker_USSR_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5A8C9A020BD7ABA6}Prefabs/Characters/Uniforms/Pants_Trousers_01/Pants_Trousers_01_DarkGrey.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F05A35BCC44BE9FC}Prefabs/Characters/Footwear/TankerBoots_US_01/TankerBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{7AC107CA7AFC9B59}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+    }
+   }
+  }
+  CharacterAnimationComponent "{520EA1D2F659C994}" {
+   components {
+    SCR_CharacterCommandHandlerComponent "{520EA1D2F659C99A}" {
+     MoveSettings ScriptCharacterCommandMoveSettings "{520EA1D2F659C99B}" {
+      LeaningSpeed 4
+      m_fSpeed_Erect_Slow_Forward 1
+      m_fSpeed_Erect_Slow_Backward 1
+      m_fSpeed_Erect_Slow_Strafe 1
+      m_fSpeed_Erect_Normal_Forward 3.4
+      m_fSpeed_Erect_Normal_Backward 2.8
+      m_fSpeed_Erect_Normal_Strafe 3.4
+      m_fSpeed_Erect_Fast_Forward 4.8
+      m_fSpeed_Erect_Fast_Strafe 4.8
+      m_fSpeed_Crouch_Slow_Forward 0.8
+      m_fSpeed_Crouch_Slow_Backward 0.8
+      m_fSpeed_Crouch_Slow_Strafe 0.8
+      m_fSpeed_Crouch_Normal_Forward 2.4
+      m_fSpeed_Crouch_Normal_Backward 1.5
+      m_fSpeed_Crouch_Normal_Strafe 2.4
+      m_fSpeed_Crouch_Fast_Forward 3.5
+      m_fSpeed_Crouch_Fast_Strafe 3
+      m_fSpeed_Prone_Slow_Forward 0.3
+      m_fSpeed_Prone_Slow_Backward 0.3
+      m_fSpeed_Prone_Slow_Strafe 0.3
+      m_fSpeed_Prone_Normal_Forward 0.6
+      m_fSpeed_Prone_Normal_Backward 0.4
+      m_fSpeed_Prone_Normal_Strafe 0.6
+      m_fSpeed_Prone_Fast_Forward 0.6
+      m_fSpeed_Prone_Fast_Strafe 0.5
+      m_fSpeed_Erect_Slope_Slow_Forward 0.5
+      m_fSpeed_Erect_Slope_Slow_Backward 0.5
+      m_fSpeed_Erect_Slope_Slow_Strafe 0.5
+      m_fSpeed_Erect_Slope_Normal_Forward 1.7
+      m_fSpeed_Erect_Slope_Normal_Backward 1.2
+      m_fSpeed_Erect_Slope_Normal_Strafe 1.7
+      m_fSpeed_Erect_Slope_Fast_Forward 1.7
+      m_fSpeed_Erect_Slope_Fast_Strafe 1.2
+      m_fSpeed_Crouch_Slope_Slow_Forward 0.5
+      m_fSpeed_Crouch_Slope_Slow_Backward 0.5
+      m_fSpeed_Crouch_Slope_Slow_Strafe 0.5
+      m_fSpeed_Crouch_Slope_Normal_Forward 1.7
+      m_fSpeed_Crouch_Slope_Normal_Backward 1
+      m_fSpeed_Crouch_Slope_Normal_Strafe 1.7
+      m_fSpeed_Crouch_Slope_Fast_Forward 1.7
+      m_fSpeed_Crouch_Slope_Fast_Strafe 1
+      m_fSpeed_Prone_Slope_Slow_Forward 0.3
+      m_fSpeed_Prone_Slope_Slow_Backward 0.3
+      m_fSpeed_Prone_Slope_Slow_Strafe 0.3
+      m_fSpeed_Prone_Slope_Normal_Forward 0.7
+      m_fSpeed_Prone_Slope_Normal_Backward 0.4
+      m_fSpeed_Prone_Slope_Normal_Strafe 0.5
+      m_fSpeed_Prone_Slope_Fast_Forward 1.5
+      m_fSpeed_Prone_Slope_Fast_Strafe 1.5
+     }
+    }
+   }
+  }
+ }
+}

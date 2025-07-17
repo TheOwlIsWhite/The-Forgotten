@@ -1,0 +1,23 @@
+Bacon_622120A5448725E3_InfectedGroup : "{64C0E901DA18DC19}622120A5448725E3/Prefabs/Groups/AmbientPatrol/Group_Zombies_AmbientPatrol_CIV_Medium.et" {
+ ID "62651601183F5AEE"
+ components {
+  SCR_AIConfigComponent "{62651601183F5AD1}" {
+   m_Skill 0.4
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Icon "{E94D36C887B4C75E}Images/Iconforgotten.edds"
+    m_Image "{4454AB3A732BA66F}Images/Forgotten.edds"
+    m_sFaction "The_Forgotten_65934D5B0DC11D42_FACTION"
+    m_aAuthoredLabels {
+     4 1736967241 1001
+    }
+   }
+  }
+ }
+ m_faction "The_Forgotten_65934D5B0DC11D42_FACTION"
+ m_aUnitPrefabSlots {
+  "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{329D6FB0C08B1AAE}Prefabs/Characters/Hollow_One.et" "{EDB3DDAA237F85EC}Prefabs/Characters/Hollow_One2.et" "{082F91532F9A1287}Prefabs/Characters/Hollow_One3.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{C1663017B13E9155}Prefabs/Characters/Hollow_One4.et" "{F40FB5D8B7FF159E}BigPoppa/Zombie_Heavy_ALIENBIGPOPPA.et" "{CB379A67E48227BD}Prefabs/Characters/Hollow_OneHeavy.et" "{759A66C91757A36C}Cyborg/Zombie_Heavy_Cyborg.et" "{DC23BC2E6D39803C}Prefabs/Characters/Whisperer.et" "{DC23BC2E6D39803C}Prefabs/Characters/Whisperer.et" "{33601CE01BF05C33}Prefabs/Characters/Stalker Heavy.et" "{33601CE01BF05C33}Prefabs/Characters/Stalker Heavy.et"
+ }
+ m_bDeleteWhenEmpty 0
+}

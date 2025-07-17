@@ -1,0 +1,8 @@
+SCR_ChimeraAIAgent {
+ ID "50C4E8413B94E8B0"
+ components {
+  AIFormationComponent "{50C4E8410B604B4B}" {
+   Enabled 0
+  }
+ }
+}

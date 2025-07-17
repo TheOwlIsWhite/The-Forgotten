@@ -1,0 +1,21 @@
+Bacon_622120A5448725E3_InfectedCharacterHeavy : "{7F6C5AD53D6B039D}622120A5448725E3/Prefabs/Characters/Heavy/Zombie_Heavy_Tank.et" {
+ ID "520EC961A090B1EE"
+ components {
+  FactionAffiliationComponent "{6264FD1F8BD7D6BF}" {
+   "faction affiliation" "The_Forgotten_65934D5B0DC11D42_FACTION"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Hollow One (Heavy)"
+    Icon "{E94D36C887B4C75E}Images/Iconforgotten.edds"
+    m_sFaction "The_Forgotten_65934D5B0DC11D42_FACTION"
+    m_aAuthoredLabels {
+     70 1736967241 1001 2
+    }
+    m_aAutoLabels {
+     70 1736967241 1001 2
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,4 @@
+SCR_GameModeCampaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ ID "56B2B479C6B96951"
+ m_sINDFORFactionKey "The_Forgotten_65934D5B0DC11D42_FACTION"
+}
